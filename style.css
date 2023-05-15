@@ -1,7 +1,7 @@
 #section1 {
     background-color: #bae9f8;
     padding: 20px;
-    height: 26rem;
+    height: 35rem;
     margin-bottom: 1rem;
 }
 
@@ -19,7 +19,7 @@
 
 .actionIcons {
     color: aliceblue;
-
+cursor: pointer;
     margin-left: -13rem;
 }
 
@@ -36,3 +36,44 @@
 .color-white {
     color: #fff;
 }
+.TextEditor {
+
+}
+.mediaBtn {
+border-radius: 1rem;
+border: 2px solid #ff7824;
+height: 2rem;
+width: 4rem;
+margin-left: 35rem;
+cursor: pointer;
+}
+
+.subHeadear {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.inputText{
+    color: #ff7824;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.InputBox {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.saveButton {
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff7824;
+    margin-top: -3.6rem;
+    float: right;
+    z-index: 999;
+    position: relative;
+    right: 8px;
+  }
