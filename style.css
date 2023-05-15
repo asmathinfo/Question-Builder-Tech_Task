@@ -1,0 +1,38 @@
+#section1 {
+    background-color: #bae9f8;
+    padding: 20px;
+    height: 26rem;
+    margin-bottom: 1rem;
+}
+
+#section2 {
+    background-color: #bae9f8;
+    padding: 20px;
+    height: 26rem;
+}
+
+.questionHeader {
+    background-color: rgb(250, 133, 7);
+    padding: 10px;
+    display: flex;
+}
+
+.actionIcons {
+    color: aliceblue;
+
+    margin-left: -13rem;
+}
+
+.headerTitle {
+    width: 55rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.color-black {
+    color: black;
+}
+.color-white {
+    color: #fff;
+}
