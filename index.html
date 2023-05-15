@@ -45,9 +45,29 @@
       </div>
       <button class="saveButton">Save</button>
     </div>
+
     <div id="section2">
       <!-- Content for section2 -->
-      <div class="answerHeader"></div>
+      <div class="answerHeader">
+        <div class="titleText">
+          <span>Data Entry options</span>
+        </div>
+        <div class="optionsMax">
+          <label class="NumberOption" for="numOptions"
+            >Number of Options:</label
+          >
+          <input class="optionValue"
+            type="number"
+            id="numOptions"
+            name="numOptions"
+            min="1"
+            max="10"
+          />
+        </div>
+        <div class="actionSection">
+          <button class="addOptionBtn" type="submit">+</button>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
