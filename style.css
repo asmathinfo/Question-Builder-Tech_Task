@@ -148,7 +148,7 @@
 }
 
 input[type="text"] {
-    height: 30px;
+    height: 100%;
     width: 100%;
 }
 
@@ -171,7 +171,8 @@ input[type="text"] {
 }
 
 .textInput {
-    border: 2px solid #f80404;
+    border: 2px solid #f95e5e;
+    background-color: #e3dfdfdc;
     width: 44rem;
     display: flex;
     height: 15rem;
@@ -184,30 +185,28 @@ input[type="text"] {
 }
 
 .textareaBox {
-    background-color: rgb(46, 251, 0);
-    border: 2px solid #f80404;
     height: 10rem;
     width: 20rem;
 
 }
 
 .ratioBtn {
-    background-color: rgb(249, 94, 94);
-    border: 2px solid #f80404;
-    height: 10rem;
+    background-color: #ffffffdc;
+    border: 2px solid #f95e5e;
+    height: 9.7rem;
     width: 20rem;
 }
 
 .calender {
-    background-color: rgb(125, 64, 247);
-    border: 2px solid #f80404;
+    background-color: #e3dfdfdc;
+    border: 2px solid #f95e5e;
     height: 16rem;
     width: 22rem;
 }
 
 .time {
-    background-color: rgb(61, 61, 61);
-    border: 2px solid #f80404;
+    background-color:#e3dfdfdc;
+    border: 2px solid #f95e5e;
     height: 3rem;
     width: 10rem;
 
@@ -255,4 +254,28 @@ input[type="checkbox"] {
     font-family: sans-serif;
     margin-top: 6px;
     cursor: pointer;
+}
+
+.ratioCol {
+    display: grid;
+    font-size: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    gap: 1rem;   
+    cursor: pointer; 
+}
+
+input[type="radio"] {
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.ratiOptions{
+    display: grid;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    cursor: pointer; 
 }

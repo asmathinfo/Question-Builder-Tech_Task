@@ -70,6 +70,9 @@
             <!--Here The textboxes are created dynamically -->
 
             <div class="container">
+                <div>
+                    <!-- <p>What data do you enter row wise under this option ?</p> -->
+                </div>
                 <div class="textInput">
                   <div class="checkBox1">
                     <label class="textChekbox">
@@ -79,11 +82,15 @@
                   </div>
 
                 <div class="textareaBox">
-                <!-- <input class="col" type="text" name="" id="">  -->
+                <input class="col" type="text" name="" id=""> 
                </div>
                   <div class="ratioBtn">
-                    <label><input type="radio" name="a" value="Option 1">Option 1</label>
-                    <label><input type="radio" name="a" value="Option 2">Option 2</label>
+                    <p style="color: #ff7824; font-family: sans-serif;font-size: 16px; margin-left: 5px;">Text Answer Settings </p>
+                    <div class="ratiOptions">
+                        <label><input type="radio" name="a" value="Option 1">Max Words</label>
+                        <label><input type="radio" name="a" value="Option 2">Max Characters</label>
+                        <label><input type="radio" name="a" value="Option 2">Unlimited</label>
+                    </div>
                   </div>
                 </div>
                 <div class="calender">
@@ -91,6 +98,12 @@
                         <input class="" type="checkbox" />
                         Calender
                       </label>
+                      <div class="ratioCol">
+                            <label><input type="radio" name="option" value="year">Year Only</label>
+                            <label><input type="radio" name="option" value="month">Month Only</label>
+                            <label><input type="radio" name="option" value="monthyear">Month and Year Only</label>
+                            <label><input type="radio" name="option" value="monthdate">Date,Month and Year Only </label> 
+                      </div>
                 </div>
                 <div class="time">
                     <label class="timeBox">
@@ -105,3 +118,7 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+
+
+
