@@ -1,7 +1,7 @@
 #section1 {
     background-color: #bae9f8;
     padding: 20px;
-    height: 35rem;
+    height: 32rem;
     margin-bottom: 1rem;
 }
 
@@ -76,4 +76,5 @@ cursor: pointer;
     z-index: 999;
     position: relative;
     right: 8px;
+    border: none;
   }
