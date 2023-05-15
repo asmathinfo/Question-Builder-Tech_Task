@@ -33,3 +33,18 @@
       // Implement your save functionality here
       alert('Content saved!');
     });
+
+    function addTextboxes() {
+        var numOptions = parseInt(document.getElementById("numOptions").value);
+        var answerBox = document.querySelector(".answerBox");
+        
+        // Clear existing content in answerBox
+        answerBox.innerHTML = "";
+        
+        for (var i = 0; i < numOptions; i++) {
+          var textbox = document.createElement("input");
+          textbox.type = "text";
+          textbox.placeholder = "Type Option name " + (i + 1);
+          answerBox.appendChild(textbox);
+        }
+      }
