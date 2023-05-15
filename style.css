@@ -20,7 +20,8 @@
 .actionIcons {
     color: aliceblue;
     cursor: pointer;
-    margin-left: -13rem;
+    margin-left: 10
+    rem;
 }
 
 .headerTitle {
@@ -38,14 +39,13 @@
     color: #fff;
 }
 
-.TextEditor {}
 
 .mediaBtn {
     border-radius: 1rem;
     border: 2px solid #ff7824;
     height: 2rem;
     width: 4rem;
-    margin-left: 35rem;
+    margin-left: 45rem;
     cursor: pointer;
 }
 
@@ -107,7 +107,7 @@
     margin-left: -30px;
 }
 
-.titleText{
+.titleText {
     color: #fff;
     font-size: 16px;
     font-family: sans-serif;
@@ -120,7 +120,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
-    margin-left: 18rem;
+    margin-left: 45rem;
 }
 
 .optionValue {
@@ -133,11 +133,106 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    gap: 2rem;
+    /* gap: 1rem; */
     width: 65%;
 }
 
 input[type="text"] {
     height: 30px;
     width: 100%;
+}
+
+.removeOptionBtn {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: #ff7824;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    left: 37rem;
+    bottom: 1.9rem;
+}
+
+  .textInput {
+    border:2px solid #f80404;
+    width: 44rem;
+    display: flex;
+    height: 15rem;
+    gap: 16px;  
+    align-items: flex-end;
+    /* padding: 0px 0px 10px 10px; */
+    justify-content: center;
+    padding-bottom: 16px;
+
+}
+
+.textareaBox {
+    background-color: rgb(46, 251, 0);
+    border: 2px solid #f80404;
+    height: 10rem;
+    width: 20rem;
+
+}
+
+.ratioBtn {
+    background-color: rgb(249, 94, 94);
+    border: 2px solid #f80404;
+    height: 10rem;
+    width: 20rem;
+}
+
+.calender{
+    background-color: rgb(125, 64, 247);
+    border: 2px solid #f80404;
+    height: 16rem;
+    width: 22rem;
+}
+
+.time {
+    background-color: rgb(61, 61, 61);
+    border: 2px solid #f80404;
+    height: 3rem;
+    width: 10rem;
+
+}
+
+.container {
+    width: 85rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.col {
+    height: 10rem;
+    width: 20rem;
+}
+
+.checkBox1{
+    position: absolute;
+    top: 42rem;
+}
+
+.textChekbox {
+    color:#000000;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 500;
+    align-items: end;
+    display: inline-flex;
+}
+input[type="checkbox"] {
+    height: 2rem;
+    width: 2rem;
+}
+
+.align-centre {
+    text-align: center;
 }
