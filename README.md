@@ -26,7 +26,7 @@ The web page offers the following features:
 
 To use the code in this repository, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+1. Clone the repository: `https://github.com/asmathinfo/Question-Builder-Tech_Task.git`
 2. Open the project in your preferred code editor.
 
 ## Usage
