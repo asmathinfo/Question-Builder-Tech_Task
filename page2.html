@@ -20,6 +20,8 @@
         </ul>
       </nav>
 
+            <!-- Cardiac section-->
+
     <div id="sectionPart2">
       <!-- Content for section2 -->
       <div class="answerHeader">
@@ -36,9 +38,9 @@
                 <input id="inputDate" type="date">
             </div>
              <div class="btnAction">
-                <button class="addBtn" type="submit" onclick="addItem()">+</button>
+                <button class="addBtn" type="submit" onclick="addCardiacItem()">+</button>
              </div>
-        </div>
+          </div>
         <!-- <div id="itemsContainer"></div> -->
         <div id="results">
           <div class="iconswap">
@@ -57,34 +59,36 @@
 
       </div>
 
-      <div id="sectionPart2">
-        <!-- Content for section2 -->
+
+
+      <!-- respiratory section-->
+
+      <div id="sectionPart3">
         <div class="answerHeader">
           <div class="titleText">
             <span>Respiratory Diesease</span>
           </div>
           </div>
   
-          <div class="div1">
+          <div class="div2">
               <div class="textarea1">
-                  <textarea id="inputText" cols="30" rows="10"></textarea>
+                  <textarea id="inputText2" cols="30" rows="10"></textarea>
               </div>
                <div class="datepicker">
-                  <input id="inputDate" type="date">
+                  <input id="inputDate2" type="date">
               </div>
                <div class="btnAction">
-                  <button class="addBtn" type="submit" onclick="addItem()">+</button>
+                  <button class="addBtn" type="submit" onclick="addRespiratoryItem()">+</button>
                </div>
-          </div>
-          <!-- <div id="itemsContainer"></div> -->
-          <div id="results">
+            </div>
+          <div id="results2">
             <div class="iconswap">
               <span class="material-symbols-outlined hh">
                 swap_vert
                 </span>
             </div>
-              <div id="resultText"></div>
-              <div id="resultdatepicker"></div>
+              <div id="resultText2"></div>
+              <div id="resultdatepicker2"></div>
               <div class="btnEdit">
                   <button type="submit" class="removeBtnn"> - </button>
                   <button type="submit" class="editt"> Edit</button>
@@ -93,6 +97,8 @@
           </div>
   
         </div>
+  
+      
 
     </div>
     <script src="script.js"></script>

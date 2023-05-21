@@ -59,7 +59,7 @@
 
 // script.js
 
-function addItem() {
+function addCardiacItem() {
   var userInput = document.getElementById('inputText').value;
   var selectedDate = document.getElementById('inputDate').value;
 
@@ -72,7 +72,7 @@ function addItem() {
   newDate.classList.add('resultTexts');
   var currentTime = new Date().toLocaleTimeString();
   var timeSpan = document.createElement('span');
-timeSpan.textContent = ' ' + currentTime;
+  timeSpan.textContent = ' ' + currentTime;
 
 
   var resultsDiv = document.getElementById('resultText');
@@ -88,6 +88,34 @@ timeSpan.textContent = ' ' + currentTime;
 
 }
 
+function addRespiratoryItem() {
+  var userInput = document.getElementById('inputText2').value;
+  var selectedDate = document.getElementById('inputDate2').value;
+
+  var newItem = document.createElement('p');
+  newItem.textContent = userInput;
+  newItem.classList.add('resultTexts');
+
+  var newDate = document.createElement('p');
+  newDate.textContent = selectedDate;
+  newDate.classList.add('resultTexts');
+  var currentTime = new Date().toLocaleTimeString();
+  var timeSpan = document.createElement('span');
+  timeSpan.textContent = ' ' + currentTime;
+
+
+  var resultsDiv2 = document.getElementById('resultText2');
+  var dateDiv2 = document.getElementById('resultdatepicker2');
+  var results2 = document.getElementById('results2');
+
+
+  resultsDiv2.appendChild(newItem);
+  dateDiv2.appendChild(newDate);
+  newDate.appendChild(timeSpan);
+
+  results2.style.display = 'flex';
+
+}
 
 
 function addTextboxes() {
