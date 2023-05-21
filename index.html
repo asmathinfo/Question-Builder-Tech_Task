@@ -5,7 +5,7 @@
       src="https://cdn.tiny.cloud/1/rg55f6v2tlz4q7j0j56daevysb599kjpvqfbtzsfgrd5465j/tinymce/6/tinymce.min.js"
       referrerpolicy="origin"
     ></script>
-    <title>Question Builder</title>
+    <title>Tech_task</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
@@ -13,6 +13,13 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="./index.html">Page A</a></li>
+        <li><a href="./page2.html">Page B</a></li>
+      </ul>
+    </nav>
+
     <div id="section1">
       <!-- Content for section1 -->
       <div class="questionHeader">
@@ -47,78 +54,123 @@
     </div>
 
     <div id="section2">
-        <!-- Content for section2 -->
-        <div class="answerHeader">
-          <div class="titleText">
-            <span>Data Entry options</span>
-          </div>
-          <div class="optionsMax">
-            <label class="NumberOption" for="numOptions">Number of Options:</label>
-            <input class="optionValue"
-              type="number"
-              id="numOptions"
-              name="numOptions"
-              min="1"
-              max="10"
-            />
-          </div>
-          <div class="actionSection">
-            <button class="addOptionBtn" type="submit" onclick="addTextboxes()">+</button>
-          </div>
+      <!-- Content for section2 -->
+      <div class="answerHeader">
+        <div class="titleText">
+          <span>Data Entry options</span>
         </div>
-        <div class="answerBox">
-            <!--Here The textboxes are created dynamically -->
+        <div class="optionsMax">
+          <label class="NumberOption" for="numOptions"
+            >Number of Options:</label
+          >
+          <input
+            class="optionValue"
+            type="number"
+            id="numOptions"
+            name="numOptions"
+            min="1"
+            max="10"
+          />
+        </div>
+        <div class="actionSection">
+          <button class="addOptionBtn" type="submit" onclick="addTextboxes()">
+            +
+          </button>
+        </div>
+      </div>
 
-            <div class="container">
-                <div>
-                    <!-- <p>What data do you enter row wise under this option ?</p> -->
-                </div>
-                <div class="textInput">
-                  <div class="checkBox1">
-                    <label class="textChekbox">
-                        <input class="" type="checkbox" />
-                        Text Input
-                      </label>
-                  </div>
 
-                <div class="textareaBox">
-                <input class="col" type="text" name="" id=""> 
-               </div>
-                  <div class="ratioBtn">
-                    <p style="color: #ff7824; font-family: sans-serif;font-size: 16px; margin-left: 5px;">Text Answer Settings </p>
-                    <div class="ratiOptions">
-                        <label><input type="radio" name="a" value="Option 1">Max Words</label>
-                        <label><input type="radio" name="a" value="Option 2">Max Characters</label>
-                        <label><input type="radio" name="a" value="Option 2">Unlimited</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="calender">
-                    <label class="align-centre">
-                        <input class="" type="checkbox" />
-                        Calender
-                      </label>
-                      <div class="ratioCol">
-                            <label><input type="radio" name="option" value="year">Year Only</label>
-                            <label><input type="radio" name="option" value="month">Month Only</label>
-                            <label><input type="radio" name="option" value="monthyear">Month and Year Only</label>
-                            <label><input type="radio" name="option" value="monthdate">Date,Month and Year Only </label> 
-                      </div>
-                </div>
-                <div class="time">
-                    <label class="timeBox">
-                        <input class="" type="checkbox" />
-                        Time
-                      </label>
+      <div id="sectionheadBox" class="sectionheadBox hidden">
+        <div class="answerBox" id="answerBox">
+          <div class="dynamicContent" id="dynamicContent">
+          <!--Here The textboxes are created dynamically -->
+         <input type="text" name="" id="questionbox">
+         <span> <button type="submit" class="removeOptionBtn">-</button></span>
+          </div>
+          <div class="container" id="container" >
+            <div>
+              <!-- <p>What data do you enter row wise under this option ?</p> -->
+            </div>
+            <div class="textInput">
+              <p class="checkBox1">
+                <label class="textChekbox">
+                  <input class="" type="checkbox" />
+                  Text Input
+                </label>
+              </p>
+  
+              <div class="textareaBox">
+                <input class="col" type="text" name="" id="" />
+              </div>
+              <div class="ratioBtn">
+                <p
+                  style="
+                    color: #ff7824;
+                    font-family: sans-serif;
+                    font-size: 16px;
+                    margin-left: 5px;
+                  "
+                >
+                  Text Answer Settings
+                </p>
+                <div class="ratiOptions">
+                  <label
+                    ><input type="radio" name="a" value="Option 1" />Max
+                    Words</label
+                  >
+                  <label
+                    ><input type="radio" name="a" value="Option 2" />Max
+                    Characters</label
+                  >
+                  <label
+                    ><input
+                      type="radio"
+                      name="a"
+                      value="Option 2"
+                    />Unlimited</label
+                  >
                 </div>
               </div>
+            </div>
+            <div class="calender">
+              <label class="align-centre">
+                <input class="" type="checkbox" />
+                Calender
+              </label>
+              <div class="ratioCol">
+                <label
+                  ><input type="radio" name="option" value="year" />Year
+                  Only</label
+                >
+                <label
+                  ><input type="radio" name="option" value="month" />Month
+                  Only</label
+                >
+                <label
+                  ><input type="radio" name="option" value="monthyear" />Month and
+                  Year Only</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="option"
+                    value="monthdate"
+                  />Date,Month and Year Only
+                </label>
+              </div>
+            </div>
+            <div class="time">
+              <label class="timeBox">
+                <input class="" type="checkbox" />
+                Time
+              </label>
+            </div>
+          </div>
         </div>
+      </div>
+
     </div>
 
     <script src="script.js"></script>
   </body>
 </html>
-
-
-
-

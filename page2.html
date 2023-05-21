@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <script
+      src="https://cdn.tiny.cloud/1/rg55f6v2tlz4q7j0j56daevysb599kjpvqfbtzsfgrd5465j/tinymce/6/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script> -->
+    <title>Question Builder</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav>
+        <ul>
+          <li><a href="./index.html">Page A</a></li>
+          <li><a href="./page2.html">Page B</a></li>
+        </ul>
+      </nav>
+
+    <div id="sectionPart2">
+      <!-- Content for section2 -->
+      <div class="answerHeader">
+        <div class="titleText">
+          <span>Cardiac Diesease</span>
+        </div>
+        </div>
+
+        <div class="div1">
+            <div class="textarea1">
+                <textarea id="inputText" cols="30" rows="10"></textarea>
+            </div>
+             <div class="datepicker">
+                <input id="inputDate" type="date">
+            </div>
+             <div class="btnAction">
+                <button class="addBtn" type="submit" onclick="addItem()">+</button>
+             </div>
+        </div>
+        <!-- <div id="itemsContainer"></div> -->
+        <div id="results">
+          <div class="iconswap">
+            <span class="material-symbols-outlined hh">
+              swap_vert
+              </span>
+          </div>
+            <div id="resultText"></div>
+            <div id="resultdatepicker"></div>
+            <div class="btnEdit">
+                <button type="submit" class="removeBtnn"> - </button>
+                <button type="submit" class="editt"> Edit</button>
+            </div>
+
+        </div>
+
+      </div>
+
+      <div id="sectionPart2">
+        <!-- Content for section2 -->
+        <div class="answerHeader">
+          <div class="titleText">
+            <span>Respiratory Diesease</span>
+          </div>
+          </div>
+  
+          <div class="div1">
+              <div class="textarea1">
+                  <textarea id="inputText" cols="30" rows="10"></textarea>
+              </div>
+               <div class="datepicker">
+                  <input id="inputDate" type="date">
+              </div>
+               <div class="btnAction">
+                  <button class="addBtn" type="submit" onclick="addItem()">+</button>
+               </div>
+          </div>
+          <!-- <div id="itemsContainer"></div> -->
+          <div id="results">
+            <div class="iconswap">
+              <span class="material-symbols-outlined hh">
+                swap_vert
+                </span>
+            </div>
+              <div id="resultText"></div>
+              <div id="resultdatepicker"></div>
+              <div class="btnEdit">
+                  <button type="submit" class="removeBtnn"> - </button>
+                  <button type="submit" class="editt"> Edit</button>
+              </div>
+  
+          </div>
+  
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
