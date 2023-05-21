@@ -463,9 +463,9 @@ li a:hover {
 
 #results {
     display: none;
-  }
-  
-  /* #answerBox {
+}
+
+/* #answerBox {
     display: none;
   }
   
@@ -473,11 +473,11 @@ li a:hover {
     display: none;
   } */
 
-  .hidden {
+.hidden {
     display: none;
-  }
-  
-  #sectionPart3 {
+}
+
+#sectionPart3 {
     background-color: #ffc9ea34;
     padding: 20px;
     height: 26rem;
@@ -505,9 +505,9 @@ li a:hover {
 
 #results2 {
     display: none;
-  }
+}
 
-  #resultText2 {
+#resultText2 {
     background-color: #ff7824;
     height: 10rem;
     width: 42rem;
@@ -520,4 +520,13 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    background-color: brown;
+    padding: 8px;
+    position: sticky;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
 }
